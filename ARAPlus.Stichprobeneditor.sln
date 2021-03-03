@@ -5,17 +5,24 @@ VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ARAPlus.Stichprobeneditor.Models", "ARAPlus.Stichprobeneditor\ARAPlus.Stichprobeneditor.Models\ARAPlus.Stichprobeneditor.Models.csproj", "{39E01D5C-7896-4EF1-9691-EC91A366A42C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARAPlus.Stichprobeneditor.Repository.Contract", "ARAPlus.Stichprobeneditor.Repository.Contract\ARAPlus.Stichprobeneditor.Repository.Contract.csproj", "{40BE1883-5A87-4477-8A9C-B30D387D308F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ARAPlus.Stichprobeneditor.Repository.Contract", "ARAPlus.Stichprobeneditor.Repository.Contract\ARAPlus.Stichprobeneditor.Repository.Contract.csproj", "{40BE1883-5A87-4477-8A9C-B30D387D308F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARAPlus.Stichprobeneditor.Repository.Contract.Mock", "ARAPlus.Stichprobeneditor.Repository.Contract.Mock\ARAPlus.Stichprobeneditor.Repository.Contract.Mock.csproj", "{86343D60-D781-49FB-A887-5DAC0717CF86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ARAPlus.Stichprobeneditor.Repository.Contract.Mock", "ARAPlus.Stichprobeneditor.Repository.Contract.Mock\ARAPlus.Stichprobeneditor.Repository.Contract.Mock.csproj", "{86343D60-D781-49FB-A887-5DAC0717CF86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARAPlus.Stichprobeneditor.Repository.Impl.MSSQLServer", "ARAPlus.Stichprobeneditor.Repository.Impl.MSSQLServer\ARAPlus.Stichprobeneditor.Repository.Impl.MSSQLServer.csproj", "{CA209297-AF1C-4403-A0AF-E93E53198BB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ARAPlus.Stichprobeneditor.Repository.Impl.MSSQLServer", "ARAPlus.Stichprobeneditor.Repository.Impl.MSSQLServer\ARAPlus.Stichprobeneditor.Repository.Impl.MSSQLServer.csproj", "{CA209297-AF1C-4403-A0AF-E93E53198BB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARAPlus.Stichprobeneditor.ConsoleAppTest", "ARAPlus.Stichprobeneditor.ConsoleAppTest\ARAPlus.Stichprobeneditor.ConsoleAppTest.csproj", "{762F88CC-7504-47C9-B944-0BAD2DF2E5FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ARAPlus.Stichprobeneditor.ConsoleAppTest", "ARAPlus.Stichprobeneditor.ConsoleAppTest\ARAPlus.Stichprobeneditor.ConsoleAppTest.csproj", "{762F88CC-7504-47C9-B944-0BAD2DF2E5FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARAPlus.Stichprobeneditor.BusinessLogic", "ARAPlus.Stichprobeneditor.BusinessLogic\ARAPlus.Stichprobeneditor.BusinessLogic.csproj", "{80A5753F-872E-432B-800A-8FC878B65FDC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ARAPlus.Stichprobeneditor.BusinessLogic", "ARAPlus.Stichprobeneditor.BusinessLogic\ARAPlus.Stichprobeneditor.BusinessLogic.csproj", "{80A5753F-872E-432B-800A-8FC878B65FDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARAPlus.Stichprobeneditor.WebApiControllers", "ARAPlus.Stichprobeneditor.WebApiControllers\ARAPlus.Stichprobeneditor.WebApiControllers.csproj", "{2FCAF3C4-E67A-47DB-8052-48F8D59BAAFC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ARAPlus.Stichprobeneditor.WebApiControllers", "ARAPlus.Stichprobeneditor.WebApiControllers\ARAPlus.Stichprobeneditor.WebApiControllers.csproj", "{2FCAF3C4-E67A-47DB-8052-48F8D59BAAFC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CA175FD8-A564-4743-A61A-F51234C4506D}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.txt = ReadMe.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARAPlus.Stichprobeneditor.MVCSample", "ARAPlus.Stichprobeneditor.MVCSample\ARAPlus.Stichprobeneditor.MVCSample.csproj", "{0EB1B1BB-531F-45C9-9535-2CAA7E97D3A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +58,10 @@ Global
 		{2FCAF3C4-E67A-47DB-8052-48F8D59BAAFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FCAF3C4-E67A-47DB-8052-48F8D59BAAFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FCAF3C4-E67A-47DB-8052-48F8D59BAAFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EB1B1BB-531F-45C9-9535-2CAA7E97D3A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EB1B1BB-531F-45C9-9535-2CAA7E97D3A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EB1B1BB-531F-45C9-9535-2CAA7E97D3A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EB1B1BB-531F-45C9-9535-2CAA7E97D3A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
